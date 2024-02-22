@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuItems>
+    <menuItem>
+        <menuId>1</menuId>
+        <foodCategory>Main Specials</foodCategory>
+        <foodItemName>Sushi</foodItemName>
+        <foodIngredient>Raw fish, rice, seaweed</foodIngredient>
+        <price>50</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>2</menuId>
+        <foodCategory>Starters</foodCategory>
+        <foodItemName>Guacamole</foodItemName>
+        <foodIngredient>Avocado, tomato, onion, lime</foodIngredient>
+        <price>80</price>
+        <qty>3</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>3</menuId>
+        <foodCategory>Main Dishes</foodCategory>
+        <foodItemName>Tacos al Pastor</foodItemName>
+        <foodIngredient>Marinated pork, pineapple, onion, cilantro</foodIngredient>
+        <price>120</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>4</menuId>
+        <foodCategory>Specialties</foodCategory>
+        <foodItemName>Mexican Combo</foodItemName>
+        <foodIngredient>Assorted Mexican dishes</foodIngredient>
+        <price>200</price>
+        <qty>1</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>5</menuId>
+        <foodCategory>Snacks</foodCategory>
+        <foodItemName>Nachos</foodItemName>
+        <foodIngredient>Tortilla chips, cheese, jalapenos</foodIngredient>
+        <price>60</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>6</menuId>
+        <foodCategory>Main Dishes</foodCategory>
+        <foodItemName>Enchiladas</foodItemName>
+        <foodIngredient>Corn tortillas, chicken, cheese, sauce</foodIngredient>
+        <price>150</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>7</menuId>
+        <foodCategory>Snacks</foodCategory>
+        <foodItemName>Tortilla Soup</foodItemName>
+        <foodIngredient>Tortilla strips, chicken, tomato, broth</foodIngredient>
+        <price>90</price>
+        <qty>3</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>8</menuId>
+        <foodCategory>Snacks</foodCategory>
+        <foodItemName>Quesadillas</foodItemName>
+        <foodIngredient>Tortilla, cheese, filling</foodIngredient>
+        <price>70</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>9</menuId>
+        <foodCategory>Main Dishes</foodCategory>
+        <foodItemName>Burritos</foodItemName>
+        <foodIngredient>Tortilla, rice, beans, meat, salsa</foodIngredient>
+        <price>100</price>
+        <qty>1</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>10</menuId>
+        <foodCategory>Main Dishes</foodCategory>
+        <foodItemName>Fajitas</foodItemName>
+        <foodIngredient>Grilled meat, peppers, onions, tortillas</foodIngredient>
+        <price>180</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>11</menuId>
+        <foodCategory>Main Dishes</foodCategory>
+        <foodItemName>Pad Thai</foodItemName>
+        <foodIngredient>Rice noodles, shrimp, tofu, peanuts, tamarind sauce</foodIngredient>
+        <price>160</price>
+        <qty>2</qty>
+    </menuItem>
+    <menuItem>
+        <menuId>12</menuId>
+        <foodCategory>Drinks</foodCategory>
+        <foodItemName>Margarita</foodItemName>
+        <foodIngredient>Tequila, lime juice, triple sec</foodIngredient>
+        <price>40</price>
+        <qty>1</qty>
+    </menuItem>
+
+</menuItems>

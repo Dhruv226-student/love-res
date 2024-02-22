@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Dk-food-LOVE ❤
+-menu</title>
+
+<style>
+    .card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+</style>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- slidck slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+<style>
+    /* Style for dynamically fetched menu items */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+</style>
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Dk-food-LOVE ❤
+            </span>
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <a href="">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Login</span>
+              </a>
+              <form class="form-inline ">
+                <input type="search" placeholder="Search" />
+                <button class="btn  nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <img src="images/menu.png" alt="">
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+ <a href="chef.html">Chef profile</a>
+                <a href="menu.html">Menu</a>
+              <a href="testimonial.html">Testimonial</a>
+                <a href="contact.html">Contact </a>
+                        </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+  <div class="container my-5">
+
+    <h2 class="text-center mb-4 d-size1">Foreign Dinner</h2>
+    <div class="row">
+        
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/sushi.jpg" class="card-img-top" alt="Sushi">
+                <div class="card-body">
+                    <h5 class="card-title">Sushi</h5>
+                    <p class="price">Price: $10.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/vegetarian_dish.jpg" class="card-img-top" alt="Vegetarian Dish">
+                <div class="card-body">
+                    <h5 class="card-title">Vegetarian Delight Pizza</h5>
+                    <p class="price">Price: $10.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/spaghetti_carbonara.jpg" class="card-img-top" alt="Spaghetti Carbonara">
+                <div class="card-body">
+                    <h5 class="card-title">Spaghetti Carbonara</h5>
+                    <p class="price">Price: $11.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/pad_thai.jpg" class="card-img-top" alt="Pad Thai">
+                <div class="card-body">
+                    <h5 class="card-title">Pad Thai</h5>
+                    <p class="price">Price: $9.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/moussaka.jpg" class="card-img-top" alt="Moussaka">
+                <div class="card-body">
+                    <h5 class="card-title">Moussaka</h5>
+                    <p class="price">Price: $13.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="foreign_dinner/risotto.jpg" class="card-img-top" alt="Risotto">
+                <div class="card-body">
+                    <h5 class="card-title">Risotto</h5>
+                    <p class="price">Price: $10.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container my-5">
+
+    <h2 class="text-center mb-4 d-size1">Mexican Dinner</h2>
+    <div class="row">
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="mexican_dinner/tacos.jpg" class="card-img-top" alt="Tacos">
+                <div class="card-body">
+                    <h5 class="card-title">Tacos</h5>
+                    <p class="price">Price: $8.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="mexican_dinner/burritos.jpg" class="card-img-top" alt="Burritos">
+                <div class="card-body">
+                    <h5 class="card-title">Burritos</h5>
+                    <p class="price">Price: $9.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="mexican_dinner/enchiladas.jpg" class="card-img-top" alt="Enchiladas">
+                <div class="card-body">
+                    <h5 class="card-title">Enchiladas</h5>
+                    <p class="price">Price: $10.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container my-5">
+
+    <h2 class="text-center mb-4 d-size1">Drinks</h2>
+    <div class="row">
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="drinks/lemonade.jpg" class="card-img-top" alt="Lemonade">
+                <div class="card-body">
+                    <h5 class="card-title">Lemonade</h5>
+                    <p class="price">Price: $2.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="drinks/iced-tea.jpg" class="card-img-top" alt="Iced Tea">
+                <div class="card-body">
+                    <h5 class="card-title">Iced Tea</h5>
+                    <p class="price">Price: $2.49</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add more drink options here -->
+        <div class="col-md-4 col-12">
+            <div class="card mb-3 ">
+                <img src="drinks/mojito.jpg" class="card-img-top" alt="Mojito">
+                <div class="card-body">
+                    <h5 class="card-title">Mojito</h5>
+                    <p class="price">Price: $4.99</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <button class="btn btn-secondary detailsBtn">See Details</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="d-size">
+    <div class="container my-5">
+        <h2 class="text-center">Our Menu</h2>
+        <div class="content">
+            <div class="row" id="menuItems">
+                <!-- Menu items will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+  <div class="footer_container">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="contact_box">
+          <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="info_links">
+          <ul>
+            <li class="active">
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="about.html">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="" href="blog.html">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a class="" href="testimonial.html">
+                Testimonial
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="social_box">
+          <a href="">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <br>
+          Created By:  DK_dev      </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+  </div>
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick  slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          $(".img-scal").mouseenter(function () {
+              $(this).css("transform", "scale(1.1)").css("border-radius", "20px");
+          }).mouseleave(function () {
+              $(this).css("transform", "scale(1)").css("border-radius", "0px");
+          });
+      });
+      $(document).ready(function () {
+          $(".card-img-top").mouseenter(function () {
+              $(this).css("transform", "scale(1.1)").css("border-radius", "20px"); // Scale the image on hover
+          }).mouseleave(function () {
+              $(this).css("transform", "scale(1)").css("border-radius", "0px"); // Revert to original size on mouse leave
+          });
+      });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          loadMenuItems();
+      });
+  
+      function loadMenuItems() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+              if (this.readyState == 4 && this.status == 200) {
+                  var xmlDoc = this.responseXML;
+                  var items = xmlDoc.getElementsByTagName("menuItem");
+                  var menuItemsContainer = document.getElementById("menuItems");
+  
+                  for (var i = 0; i < items.length; i++) {
+                      var item = items[i];
+                      var menuId = item.getElementsByTagName("menuId")[0].childNodes[0].nodeValue;
+                      var foodCategory = item.getElementsByTagName("foodCategory")[0].childNodes[0].nodeValue;
+                      var foodItemName = item.getElementsByTagName("foodItemName")[0].childNodes[0].nodeValue;
+                      var foodIngredient = item.getElementsByTagName("foodIngredient")[0].childNodes[0].nodeValue;
+                      var price = item.getElementsByTagName("price")[0].childNodes[0].nodeValue;
+  
+                      var col = document.createElement("div");
+                      col.className = "col-md-4";
+  
+                      var card = document.createElement("div");
+                      card.className = "card mb-4 shadow-sm";
+  
+                      var cardBody = document.createElement("div");
+                      cardBody.className = "card-body";
+  
+                      var cardTitle = document.createElement("h5");
+                      cardTitle.className = "card-title";
+                      cardTitle.innerText = foodItemName;
+  
+                      var cardText = document.createElement("p");
+                      cardText.className = "card-text";
+                      cardText.innerText = foodIngredient;
+  
+                      var priceElem = document.createElement("p");
+                      priceElem.className = "price";
+                      priceElem.innerText = "Price: " + price;
+  
+                      cardBody.appendChild(cardTitle);
+                      cardBody.appendChild(cardText);
+                      cardBody.appendChild(priceElem);
+                      card.appendChild(cardBody);
+                      col.appendChild(card);
+                      menuItemsContainer.appendChild(col);
+                  }
+              }
+          };
+          xhttp.open("GET", "menuitems.xml", true);
+          xhttp.send();
+      }
+      
+  </script>
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".card-img-top").mouseenter(function () {
+            $(this).css("transform", "scale(1.1)").css("border-radius", "20px"); // Scale the image on hover
+        }).mouseleave(function () {
+            $(this).css("transform", "scale(1)").css("border-radius", "0px"); // Revert to original size on mouse leave
+        });
+    });
+</script>
+
+</body>
+
+</html>
